@@ -1,0 +1,126 @@
+{
+  "meta": {
+    "note1": "Bài 1",
+    "note2": "Bài 2",
+    "note3": "Bài 3",
+    "note4": "Bài 4",
+    "comments": "method:GET http://localhost:3000/posts/1",
+    "note5": "Bài 5",
+    "comments2": "method:DELETE http://localhost:3000/posts/1",
+    "note6": "Bài 6",
+    "comments3": "method:GET http://localhost:3000/posts?created_by=Author One",
+    "note7": "Bài 7",
+    "comments4": "đã thêm 1 đối tượng mới với ID: 6 qua phương thức POST",
+    "note8": "Bài 8",
+    "comments5": "đã cập nhật thêm 1 đối tượng mới vào ID: 1 qua phương thức PUT",
+    "note9": "Bài 9",
+    "comments6": "đã cập nhật tiêu đề 1 đối tượng ID: 1 qua phương thức PATCH",
+    "note10": "Bài 10",
+    "comments7": "đã cập nhật bình luận  đối tượng ID: 3 qua phương thức PATCH"
+  },
+  "users": [
+    {
+      "id": 1,
+      "name": "hoa",
+      "address": "hà nội"
+    },
+    {
+      "id": 2,
+      "name": "hồng",
+      "address": "hà nam"
+    },
+    {
+      "id": 3,
+      "name": "thu",
+      "address": "hà giang"
+    }
+  ],
+  "products": [],
+  "comments": [],
+  "posts": [
+    {
+      "title": "Updated Post Title bai 9(trước đó là bài 8)",
+      "content": "This is the updated content of the post.",
+      "thumbnail": "https://example.com/updated-thumbnail.jpg",
+      "created_at": "2024-06-09T12:00:00Z",
+      "created_by": "Updated Author",
+      "user_id": 1,
+      "comments": [],
+      "id": 1
+    },
+    {
+      "id": 2,
+      "title": "Post Two",
+      "content": "This is the content of post two.",
+      "thumbnail": "https://i.pinimg.com/originals/ce/12/25/ce1225f92e766b3a87113dc69560e88f.jpg",
+      "created_at": "2023-01-02T12:00:00Z",
+      "created_by": "Author Two",
+      "comments": []
+    },
+    {
+      "id": 3,
+      "title": "Post Three",
+      "content": "This is the content of post three.",
+      "thumbnail": "https://img.thuthuat123.com/uploads/2019/07/12/canh-dep-thien-nhien-con-duong-lat-da-di-vao-rung-tham_085323525.jpg",
+      "created_at": "2023-01-03T12:00:00Z",
+      "created_by": "Author One",
+      "comments13": [
+        {
+          "id": 3,
+          "content": "Interesting read.",
+          "created_at": "2023-01-03T13:00:00Z",
+          "created_by": "Commenter Three"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Post Four",
+      "content": "This is the content of post four.",
+      "thumbnail": "https://recmiennam.com/wp-content/uploads/2020/10/kiet-tac-cua-thien-nhien-qua-nhung-hinh-anh-dep-7-scaled.jpg",
+      "created_at": "2023-01-04T12:00:00Z",
+      "created_by": "Author Four",
+      "comments": []
+    },
+    {
+      "id": 5,
+      "title": "Post Five",
+      "content": "This is the content of post five.",
+      "thumbnail": "https://img.thuthuat123.com/uploads/2019/07/12/canh-dep-thien-nhien-suoi-trong-rung-sau_085324118.jpg",
+      "created_at": "2023-01-05T12:00:00Z",
+      "created_by": "Author Five",
+      "comments": []
+    },
+    {
+      "title": "New Post Title",
+      "content": "This is the content of the new post.",
+      "thumbnail": "https://example.com/thumbnail.jpg",
+      "created_at": "2024-06-09T12:00:00Z",
+      "created_by": "Author Name",
+      "user_id": 1,
+      "comments": [],
+      "id": 6
+    }
+  ],
+  "error": {
+    "error": "Not Found"
+  },
+  "postman": [
+    {
+      "id": 1,
+      "title": "Cách học ReactJS hiệu quả",
+      "content": "Đọc tài liệu và làm nhiều bài tập",
+      "thumbnail": "https://tse4.mm.bing.net/th?id=0IP.NUnwfCNKoTvatXrbyTmzwHaEG&pid=Api&P=0&h=180",
+      "created_at": "2024-03-25T12:00:00Z",
+      "created_by": "Ngọ Văn Quý",
+      "comments": [
+        {
+          "id": 1,
+          "content": "Bài viết rất ý nghĩa",
+          "created_at": "2024-03-22T12:00:00Z",
+          "created_by": "User 2"
+        }
+      ]
+    }
+  ]
+}
